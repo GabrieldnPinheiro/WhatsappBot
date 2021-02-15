@@ -4,7 +4,12 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "@open-wa/wa-automate": "^3.1.15",
     "fs": "0.0.1-security",
+    "node-base64-image": "^2.0.1",
+    "node-cmd": "^4.0.0",
+    "puppeteer": "^5.5.0",
+    "unirest": "^0.6.0",
     "whatsapp-web.js": "^1.12.0"
   },
   "devDependencies": {
@@ -14,8 +19,8 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "start": "tsc main.ts --outDir dist && node dist/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc main.ts --outDir dist --resolveJsonModule && node dist/main.js",
+    "test": "tsc test.ts --outDir TEST --resolveJsonModule && node TEST/test.js"
   },
   "keywords": [],
   "author": "",

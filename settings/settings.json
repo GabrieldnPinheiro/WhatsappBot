@@ -1,0 +1,12 @@
+{
+    "prefix": "!",
+    "name": "KDSNbot",
+    "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "ffmpegPath": "services/ffmpeg.exe",
+    "proprietarioNum": "5521982649071",
+    "ButtonMeme": {
+        "user": "Nocivo",
+        "pass": "88454720",
+        "template": "119139145"
+    }
+}
