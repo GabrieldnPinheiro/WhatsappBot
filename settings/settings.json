@@ -1,12 +1,7 @@
 {
-    "prefix": "!",
-    "name": "KDSNbot",
+    "prefix": "!", //configure o prefixo dos comandos
+    "name": "KDSNbot", //nome do seu bot
     "chromePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     "ffmpegPath": "services/ffmpeg.exe",
-    "proprietarioNum": "5521982649071",
-    "ButtonMeme": {
-        "user": "Nocivo",
-        "pass": "88454720",
-        "template": "119139145"
-    }
+    "proprietarioNum": "", //aqui vai o número do bot
 }
