@@ -13,7 +13,7 @@ class ResendMedia implements Command  {
     
 
     //construtor
-    constructor(args: string[], client: Client, msg: Message) {
+    constructor (args: string[], client: Client, msg: Message) {
         this.args = args;
         this.client = client;
         this.msg = msg;
@@ -23,7 +23,7 @@ class ResendMedia implements Command  {
     invoke() {
         try {
 
-            if(!this.msg.hasQuotedMsg) {
+            if (!this.msg.hasQuotedMsg) {
                 this.msg.reply("Marque uma mensagem que contenha uma mídia.", this.msg.to);
                 return true;
             }
