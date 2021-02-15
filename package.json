@@ -8,6 +8,7 @@
     "fs": "0.0.1-security",
     "node-base64-image": "^2.0.1",
     "node-cmd": "^4.0.0",
+    "axios": ">=0.21.1",
     "puppeteer": "^5.5.0",
     "unirest": "^0.6.0",
     "whatsapp-web.js": "^1.12.0"
